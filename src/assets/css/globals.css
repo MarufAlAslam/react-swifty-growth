@@ -19,27 +19,42 @@
   background-repeat: no-repeat;
 }
 
-.arrow{
-    width: 150px;
-    position: relative;
-    top: -50px;
-    left: -50px;
-    margin-bottom: -50px;
+.arrow {
+  width: 150px;
+  position: relative;
+  top: -50px;
+  left: -50px;
+  margin-bottom: -50px;
 }
-@media screen and (max-width: 700px){
-    .create-account{
-        padding: 10px;
-        padding-top: 200px;
-        background-size: 100% 100%;
-        min-height: auto;
-    }
-    .arrow{
-        width: 50px;
-        top: -30px;
-        left: -30px;
-        margin-bottom: -30px;
-    }
-    input{
-        font-size: 12px;
-    }
+
+/* link facebook */
+.link-facebook {
+  min-height: 100vh;
+  padding: 50px;
+  background-image: url("../img/link-facebook.png");
+  background-size: 100%;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 700px) {
+  .create-account {
+    padding: 10px;
+    padding-top: 200px;
+    background-size: 100% 100%;
+    min-height: auto;
+  }
+  .arrow {
+    width: 50px;
+    top: -30px;
+    left: -30px;
+    margin-bottom: -30px;
+  }
+  input {
+    font-size: 12px;
+  }
+
+  .link-facebook{
+    padding: 10px;
+  }
 }

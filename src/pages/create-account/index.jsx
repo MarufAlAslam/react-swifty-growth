@@ -1,6 +1,7 @@
 import React from "react";
 import arrow from "../../assets/img/arrow.png";
 import logo from "../../assets/img/logo.png";
+import { Link } from "react-router-dom";
 
 const CreateAccount = () => {
   return (
@@ -43,9 +44,9 @@ const CreateAccount = () => {
             </p>
             <img src={arrow} className="arrow" alt="" />
 
-            <button className="btn md:w-3/4 w-full block mx-auto font-bold md:text-xl bg-[#e1e1e1] border-4 border-blue-500 rounded-xl md:px-6 py-2">
+            <Link to={"/link-facebook"} className="btn md:w-3/4 w-full block mx-auto font-bold md:text-xl bg-[#e1e1e1] border-4 border-blue-500 rounded-xl md:px-6 py-2">
               See My Free Post
-            </button>
+            </Link>
           </form>
         </div>
       </div>
