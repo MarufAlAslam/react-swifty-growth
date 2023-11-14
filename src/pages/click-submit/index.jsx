@@ -1,10 +1,12 @@
 import React from "react";
 import phone from "../../assets/img/phone.png";
-import link from "../../assets/img/link.png";
+// import link from "../../assets/img/link.png";
 import { Link } from "react-router-dom";
 import logo from "../../assets/img/logo.png";
+import arrow from "../../assets/img/arrow.png";
+import confirm from "../../assets/img/confirmFacebookLink.png";
 
-const LinkFacebook = () => {
+const ClickSubmit = () => {
   return (
     <div className="page">
       <div className="container">
@@ -29,16 +31,25 @@ const LinkFacebook = () => {
           <div className="relative md:w-[50%] w-[80%] mx-auto">
             <img src={phone} className="my-5 mx-auto block" alt="" />
 
-            <div className="txts text-right absolute md:bottom-24 bottom-10 md:right-[100px] right-8">
-              <p className="md:text-4xl josefin-bold-italic text-black">
-                Now! Click Here
-              </p>
-              <p className="md:text-3xl josefin-bold-italic text-black">
-                Link your post to <br /> Facebook with Ayshare
+            <div className="txts w-[60%] text-left absolute md:bottom-4 bottom-10 md:left-[100px] left-8">
+              <p className="md:text-4xl relative z-10 josefin-bold-italic text-black">
+                Click Submit
               </p>
 
-              <Link to={"/click-submit"} className="text-center block mx-auto">
-                <img src={link} className="ms-auto block w-[75%] mt-3" alt="" />
+              <img src={arrow} className="arrow sm-arrow" alt="" />
+              <img src={confirm} className="confirm w-[100px] -top-[40px] relative block" alt="" />
+
+              <p className="md:text-2xl relative w-full -top-[50px] z-10 josefin-bold-italic text-right mr-20 text-black">
+                And Click Here
+              </p>
+
+              <img src={arrow} className="arrow flipped-arrow" alt="" />
+
+              <Link
+                to={"/link-facebook"}
+                className="btn text-center mt-2 relative top-[-50px] md:w-3/4 w-full block mx-auto font-bold md:text-xl bg-[#e1e1e1] border-4 border-blue-500 rounded-xl md:px-6 py-2"
+              >
+                Post on Facebook
               </Link>
             </div>
           </div>
@@ -48,4 +59,4 @@ const LinkFacebook = () => {
   );
 };
 
-export default LinkFacebook;
+export default ClickSubmit;

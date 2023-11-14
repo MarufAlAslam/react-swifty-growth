@@ -37,6 +37,23 @@
   background-repeat: no-repeat;
 }
 
+.flipped-arrow{
+    width: 50px;
+    position: relative;
+    top: -50px;
+    left: unset;
+    right: -300px;
+    margin-bottom: -50px;
+    transform: rotateY(180deg);
+}
+
+
+/* click submit */
+.sm-arrow{
+    width: 80px;
+    top: -40px;
+    left: -40px;
+}
 @media screen and (max-width: 700px) {
   .create-account {
     padding: 10px;
