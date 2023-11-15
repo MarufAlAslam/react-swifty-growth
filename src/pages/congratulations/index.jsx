@@ -4,9 +4,8 @@ import phone from "../../assets/img/phone.png";
 import { Link } from "react-router-dom";
 import logo from "../../assets/img/logo.png";
 import arrow from "../../assets/img/arrow.png";
-import confirm from "../../assets/img/confirmFacebookLink.png";
 
-const ClickSubmit = () => {
+const Congratulations = () => {
   return (
     <div className="page">
       <div className="container">
@@ -24,30 +23,24 @@ const ClickSubmit = () => {
               With The Power Of Facebook
             </p>
             <p className="md:text-3xl font-bold josefin-bold-italic text-white">
-              WOW! Your Post Looks Great!
+            Congratulations! You have just made <br />
+your first LIVE post!
             </p>
           </div>
 
           <div className="relative md:w-[50%] w-[80%] mx-auto">
             <img src={phone} className="my-5 mx-auto block" alt="" />
 
-            <div className="txts w-[60%] text-left absolute md:bottom-4 bottom-10 md:left-[100px] left-8">
-              <p className="md:text-4xl relative z-10 josefin-bold-italic text-black">
-                Click Submit
+            <div className="txts w-[60%] text-left absolute md:bottom-4 bottom-8 md:left-[100px] left-8">
+              <p className="md:text-4xl text-lg relative top-3 z-10 josefin-bold-italic text-black">
+                Now! Click to See <br /> Tomorrows Post!
               </p>
 
-              <img src={arrow} className="arrow sm-arrow md:block hidden" alt="" />
-              <img src={confirm} className="confirm md:w-[100px] w-[60px] md:-top-[40px] relative block" alt="" />
-
-              <p className="md:text-2xl relative w-full md:-top-[50px] top-2 z-10 josefin-bold-italic text-right mr-20 text-black">
-                And Click Here
-              </p>
-
-              <img src={arrow} className="arrow flipped-arrow md:block hidden" alt="" />
+              <img src={arrow} className="arrow mt-3 scale-105" alt="" />
 
               <Link
-                to={"/congratulations"}
-                className="btn text-center mt-2 relative  md:top-[-50px] md:left-0 left-5 md:w-3/4 w-full block mx-auto font-bold md:text-xl text-sm bg-[#e1e1e1] border-4 border-blue-500 rounded-xl md:px-6 px-2 md:py-2"
+                to={"/link-facebook"}
+                className="btn text-center mt-2 relative  md:top-[-50px] md:left-0 left-5 md:w-3/4 w-full block mx-auto font-bold md:text-xl text-sm bg-[#e1e1e1] border-4 border-blue-500 rounded-xl md:px-6 py-2"
               >
                 Post on Facebook
               </Link>
@@ -59,4 +52,4 @@ const ClickSubmit = () => {
   );
 };
 
-export default ClickSubmit;
+export default Congratulations;
