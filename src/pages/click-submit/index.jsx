@@ -36,18 +36,18 @@ const ClickSubmit = () => {
                 Click Submit
               </p>
 
-              <img src={arrow} className="arrow sm-arrow" alt="" />
-              <img src={confirm} className="confirm w-[100px] -top-[40px] relative block" alt="" />
+              <img src={arrow} className="arrow sm-arrow md:block hidden" alt="" />
+              <img src={confirm} className="confirm md:w-[100px] w-[60px] md:-top-[40px] relative block" alt="" />
 
-              <p className="md:text-2xl relative w-full -top-[50px] z-10 josefin-bold-italic text-right mr-20 text-black">
+              <p className="md:text-2xl relative w-full md:-top-[50px] top-2 z-10 josefin-bold-italic text-right mr-20 text-black">
                 And Click Here
               </p>
 
-              <img src={arrow} className="arrow flipped-arrow" alt="" />
+              <img src={arrow} className="arrow flipped-arrow md:block hidden" alt="" />
 
               <Link
                 to={"/link-facebook"}
-                className="btn text-center mt-2 relative top-[-50px] md:w-3/4 w-full block mx-auto font-bold md:text-xl bg-[#e1e1e1] border-4 border-blue-500 rounded-xl md:px-6 py-2"
+                className="btn text-center mt-2 relative  md:top-[-50px] md:left-0 left-5 md:w-3/4 w-full block mx-auto font-bold md:text-xl text-sm bg-[#e1e1e1] border-4 border-blue-500 rounded-xl md:px-6 px-2 md:py-2"
               >
                 Post on Facebook
               </Link>
