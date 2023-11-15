@@ -64,6 +64,9 @@ const CreditCard = () => {
                   </div>
                 </div>
 
+                <label htmlFor="" className="block text-left">
+                  Card Number
+                </label>
                 <div className="flex border justify-between items-center gap-3 px-3 rounded">
                   <input
                     type="text"
@@ -72,23 +75,37 @@ const CreditCard = () => {
                     name=""
                     id=""
                   />
-                  <img src={cards} className="cards md:w-[150px] w-[100px]" alt="" />
+                  <img
+                    src={cards}
+                    className="cards md:w-[150px] w-[100px]"
+                    alt=""
+                  />
                 </div>
                 <div className="flex mt-4 justify-between items-center gap-3">
-                  <input
-                    type="text"
-                    placeholder="MM/YY"
-                    className="rounded h-[40px] w-full border px-3"
-                    name=""
-                    id=""
-                  />
-                  <input
-                    type="text"
-                    placeholder="CVC"
-                    className="rounded h-[40px] w-full border px-3"
-                    name=""
-                    id=""
-                  />
+                  <div className="w-full">
+                    <label htmlFor="" className="block text-left">
+                      Expiration Date
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="MM/YY"
+                      className="rounded h-[40px] border px-3 w-full"
+                      name=""
+                      id=""
+                    />
+                  </div>
+                  <div className="w-full">
+                    <label htmlFor="" className="block text-left">
+                      Security Code
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="CVC"
+                      className="rounded h-[40px] w-full border px-3"
+                      name=""
+                      id=""
+                    />
+                  </div>
                 </div>
 
                 <button className="mt-4 w-full py-3 bg-[#5554f5] text-gray-300 font-semibold rounded text-lg">
