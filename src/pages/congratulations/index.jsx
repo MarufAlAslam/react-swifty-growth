@@ -36,7 +36,7 @@ your first LIVE post!
                 Now! Click to See <br /> Tomorrows Post!
               </p>
 
-              <img src={arrow} className="arrow mt-3 scale-105" alt="" />
+              <img src={arrow} className="arrow mt-3 md:scale-100 scale-105" alt="" />
 
               <Link
                 to={"/link-facebook"}
