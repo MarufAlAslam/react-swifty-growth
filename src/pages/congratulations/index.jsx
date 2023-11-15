@@ -39,10 +39,10 @@ your first LIVE post!
               <img src={arrow} className="arrow mt-3 md:scale-100 scale-105" alt="" />
 
               <Link
-                to={"/link-facebook"}
+                to={"/credit-card"}
                 className="btn text-center mt-2 relative  md:top-[-50px] md:left-0 left-5 md:w-3/4 w-full block mx-auto font-bold md:text-xl text-sm bg-[#e1e1e1] border-4 border-blue-500 rounded-xl md:px-6 py-2"
               >
-                Post on Facebook
+                See Tomorrows Post!
               </Link>
             </div>
           </div>

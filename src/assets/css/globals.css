@@ -53,6 +53,17 @@
   top: -40px;
   left: -40px;
 }
+
+/* credit card */
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + label {
+  border: 2px solid #5554f5;
+  color: #5554f5;
+}
+
 @media screen and (max-width: 700px) {
   .create-account {
     padding: 10px;
@@ -82,5 +93,8 @@
     right: -135px;
     margin-bottom: -50px;
     transform: rotateY(180deg);
+  }
+  .link-facebook.relative.bg-cover {
+    background-size: cover !important;
   }
 }
