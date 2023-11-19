@@ -65,7 +65,7 @@ input[type="radio"] {
   overflow-y: scroll;
 }
 
-input[type="radio"]:checked + label {
+input[type="radio"]:checked+label {
   border: 2px solid #5554f5;
   color: #5554f5;
 }
@@ -77,12 +77,14 @@ input[type="radio"]:checked + label {
     background-size: 100% 100%;
     min-height: auto;
   }
+
   .arrow {
     width: 50px;
     top: -30px;
     left: -30px;
     margin-bottom: -30px;
   }
+
   input {
     font-size: 12px;
   }
@@ -100,7 +102,46 @@ input[type="radio"]:checked + label {
     margin-bottom: -50px;
     transform: rotateY(180deg);
   }
+
   .link-facebook.relative.bg-cover {
     background-size: cover !important;
+  }
+
+
+  .container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  p.md\:text-xl.text-lg.relative.top-3.ml-2.z-10.josefin-bold-italic.text-black {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  .ttxts {
+    width: 60%;
+  }
+
+  .page {
+    min-height: 100vh;
+    overflow-y: scroll;
+  }
+
+  .link-facebook {
+    background-size: cover;
+  }
+
+  .txts.scale-\[70\%\] {
+    transform: scale(1);
+  }
+
+  .txts.scale-\[70\%\].w-\[80\%\].text-left.absolute.md\:bottom-\[-30px\].bottom-10.md\:left-\[25px\].left-8 {
+    width: 70%;
+  }
+
+  .create-account {
+    background-size: cover;
   }
 }

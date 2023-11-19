@@ -10,10 +10,10 @@ const CreateAccount = () => {
         <div className="create-account relative">
           <img
             src={logo}
-            className="absolute bottom-[5px] left-[5px] z-10 w-[100px]"
+            className="absolute bottom-[15px] left-[15px] z-10 w-[100px]"
             alt=""
           />
-          <form className="form bg-white p-4 border-4 border-blue-500 md:w-[60%] w-[60%] mt-auto ml-auto">
+          <form className="form bg-white p-4 border-4 border-blue-500 md:w-[60%] w-full mt-auto md:mb-0 mb-10 ml-auto">
             <input
               placeholder="First Name..."
               type="text"
@@ -44,7 +44,7 @@ const CreateAccount = () => {
             </p>
             <img src={arrow} className="arrow" alt="" />
 
-            <Link to={"/link-facebook"} className="btn md:w-3/4 w-full block mx-auto font-bold md:text-xl bg-[#e1e1e1] border-4 border-blue-500 rounded-xl md:px-6 py-2">
+            <Link to={"/link-facebook"} className="btn md:w-3/4 w-full block mx-auto text-center font-bold md:text-xl bg-[#e1e1e1] border-4 border-blue-500 rounded-xl md:px-6 py-2">
               See My Free Post
             </Link>
           </form>

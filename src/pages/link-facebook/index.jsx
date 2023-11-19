@@ -11,7 +11,7 @@ const LinkFacebook = () => {
         <div className="link-facebook relative">
           <img
             src={logo}
-            className="absolute bottom-[5px] left-[5px] z-10 w-[100px]"
+            className="absolute bottom-[15px] left-[15px] z-10 w-[100px]"
             alt=""
           />
           <div className="text-center">
@@ -26,8 +26,8 @@ const LinkFacebook = () => {
             </p>
           </div>
 
-          <div className="relative md:w-[35%] w-[50%] mx-auto">
-            <img src={phone} className="my-5 mx-auto block" alt="" />
+          <div className="relative md:w-[35%] w-full mx-auto">
+            <img src={phone} className="md:my-5 my-11 mx-auto block" alt="" />
 
             <div className="txts text-right absolute md:bottom-10 bottom-10 right-[40px]">
               <p className="md:text-xl josefin-bold-italic text-black">

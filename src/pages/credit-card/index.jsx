@@ -14,7 +14,7 @@ const CreditCard = () => {
         <div className="link-facebook relative bg-cover">
           <img
             src={logo}
-            className="absolute bottom-[5px] left-[5px] z-10 w-[100px]"
+            className="absolute bottom-[15px] left-[15px] z-10 w-[100px]"
             alt=""
           />
           <div className="text-center">
@@ -120,7 +120,7 @@ const CreditCard = () => {
           </div>
 
           <div className="relative md:w-[50%] w-[80%] mx-auto">
-            <img src={phone} className="my-5 mx-auto block" alt="" />
+            <img src={phone} className="md:my-5 my-11 mx-auto block" alt="" />
           </div>
         </div>
       </div>

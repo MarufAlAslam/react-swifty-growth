@@ -13,7 +13,7 @@ const ClickSubmit = () => {
         <div className="link-facebook relative">
           <img
             src={logo}
-            className="absolute bottom-[5px] left-[5px] z-10 w-[100px]"
+            className="absolute bottom-[15px] left-[15px] z-10 w-[100px]"
             alt=""
           />
           <div className="text-center">
@@ -29,7 +29,7 @@ const ClickSubmit = () => {
           </div>
 
           <div className="relative md:w-[35%] w-[80%] mx-auto">
-            <img src={phone} className="my-5 mx-auto block" alt="" />
+            <img src={phone} className="md:my-5 my-11 mx-auto block" alt="" />
 
             <div className="txts scale-[70%] w-[80%] text-left absolute md:bottom-[-30px] bottom-10 md:left-[25px] left-8">
               <p className="md:text-lg relative z-10 josefin-bold-italic text-black">

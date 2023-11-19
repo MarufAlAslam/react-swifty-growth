@@ -12,7 +12,7 @@ const Congratulations = () => {
         <div className="link-facebook relative">
           <img
             src={logo}
-            className="absolute bottom-[5px] left-[5px] z-10 w-[100px]"
+            className="absolute bottom-[15px] left-[15px] z-10 w-[100px]"
             alt=""
           />
           <div className="text-center">
@@ -29,9 +29,9 @@ your first LIVE post!
           </div>
 
           <div className="relative md:w-[35%] w-[80%] mx-auto">
-            <img src={phone} className="my-5 mx-auto block" alt="" />
+            <img src={phone} className="md:my-5 my-11 mx-auto block" alt="" />
 
-            <div className="txts w-full text-left absolute md:bottom-4 bottom-8 md:left-[30px] left-8">
+            <div className="txts ttxts w-full text-left absolute md:bottom-4 bottom-8 md:left-[30px] left-8">
               <p className="md:text-xl text-lg relative top-3 ml-2 z-10 josefin-bold-italic text-black">
                 Now! Click to See <br /> Tomorrows Post!
               </p>
@@ -40,7 +40,7 @@ your first LIVE post!
 
               <Link
                 to={"/credit-card"}
-                className="btn text-center mt-4 relative  md:top-[-50px] md:left-[-25px] left-5 md:w-3/4 w-full block mx-auto font-bold text-sm bg-[#e1e1e1] border-4 border-blue-500 rounded-xl py-2"
+                className="btn text-center md:mt-4 relative  md:top-[-50px] md:left-[-25px] left-5 md:w-3/4 w-full block mx-auto font-bold text-sm bg-[#e1e1e1] border-4 border-blue-500 rounded-xl py-2"
               >
                 See Tomorrows Post!
               </Link>
