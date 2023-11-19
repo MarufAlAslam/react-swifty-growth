@@ -17,29 +17,29 @@ const ClickSubmit = () => {
             alt=""
           />
           <div className="text-center">
-            <p className="md:text-6xl text-2xl font-bold josefin-bold-italic text-white">
+            <p className="md:text-4xl text-2xl font-bold josefin-bold-italic text-white">
               Grow Your Sales!
             </p>
-            <p className="md:text-4xl font-bold mb-2 josefin-bold-italic text-white">
+            <p className="md:text-3xl font-bold mb-2 josefin-bold-italic text-white">
               With The Power Of Facebook
             </p>
-            <p className="md:text-3xl font-bold josefin-bold-italic text-white">
+            <p className="md:text-2xl font-bold josefin-bold-italic text-white">
               WOW! Your Post Looks Great!
             </p>
           </div>
 
-          <div className="relative md:w-[50%] w-[80%] mx-auto">
+          <div className="relative md:w-[35%] w-[80%] mx-auto">
             <img src={phone} className="my-5 mx-auto block" alt="" />
 
-            <div className="txts w-[60%] text-left absolute md:bottom-4 bottom-10 md:left-[100px] left-8">
-              <p className="md:text-4xl relative z-10 josefin-bold-italic text-black">
+            <div className="txts scale-[70%] w-[80%] text-left absolute md:bottom-[-30px] bottom-10 md:left-[25px] left-8">
+              <p className="md:text-lg relative z-10 josefin-bold-italic text-black">
                 Click Submit
               </p>
 
               <img src={arrow} className="arrow sm-arrow md:block hidden" alt="" />
               <img src={confirm} className="confirm md:w-[100px] w-[60px] md:-top-[40px] relative block" alt="" />
 
-              <p className="md:text-2xl relative w-full md:-top-[50px] top-2 z-10 josefin-bold-italic text-right mr-20 text-black">
+              <p className="md:text-xl relative w-full md:-top-[30px] top-2 z-10 josefin-bold-italic text-right mr-20 text-black">
                 And Click Here
               </p>
 
@@ -47,7 +47,7 @@ const ClickSubmit = () => {
 
               <Link
                 to={"/congratulations"}
-                className="btn text-center mt-2 relative  md:top-[-50px] md:left-0 left-5 md:w-3/4 w-full block mx-auto font-bold md:text-xl text-sm bg-[#e1e1e1] border-4 border-blue-500 rounded-xl md:px-6 px-2 md:py-2"
+                className="btn text-center mt-2 relative  md:top-[-50px] md:left-0 left-5 mr-3 md:w-3/4 w-full block mx-auto font-bold text-sm bg-[#e1e1e1] border-4 border-blue-500 rounded-xl px-2 md:py-2"
               >
                 Post on Facebook
               </Link>

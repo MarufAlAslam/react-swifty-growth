@@ -9,7 +9,7 @@ import cards from "../../assets/img/cards.png";
 
 const CreditCard = () => {
   return (
-    <div className="page">
+    <div className="page min-h-screen overflow-y-auto">
       <div className="container">
         <div className="link-facebook relative bg-cover">
           <img

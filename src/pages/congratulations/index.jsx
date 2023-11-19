@@ -16,23 +16,23 @@ const Congratulations = () => {
             alt=""
           />
           <div className="text-center">
-            <p className="md:text-6xl text-2xl font-bold josefin-bold-italic text-white">
+            <p className="md:text-4xl text-2xl font-bold josefin-bold-italic text-white">
               Grow Your Sales!
             </p>
-            <p className="md:text-4xl font-bold mb-2 josefin-bold-italic text-white">
+            <p className="md:text-2xl font-bold mb-2 josefin-bold-italic text-white">
               With The Power Of Facebook
             </p>
-            <p className="md:text-3xl font-bold josefin-bold-italic text-white">
+            <p className="md:text-xl font-bold josefin-bold-italic text-white">
             Congratulations! You have just made <br />
 your first LIVE post!
             </p>
           </div>
 
-          <div className="relative md:w-[50%] w-[80%] mx-auto">
+          <div className="relative md:w-[35%] w-[80%] mx-auto">
             <img src={phone} className="my-5 mx-auto block" alt="" />
 
-            <div className="txts w-[60%] text-left absolute md:bottom-4 bottom-8 md:left-[100px] left-8">
-              <p className="md:text-4xl text-lg relative top-3 z-10 josefin-bold-italic text-black">
+            <div className="txts w-full text-left absolute md:bottom-4 bottom-8 md:left-[30px] left-8">
+              <p className="md:text-xl text-lg relative top-3 ml-2 z-10 josefin-bold-italic text-black">
                 Now! Click to See <br /> Tomorrows Post!
               </p>
 
@@ -40,7 +40,7 @@ your first LIVE post!
 
               <Link
                 to={"/credit-card"}
-                className="btn text-center mt-2 relative  md:top-[-50px] md:left-0 left-5 md:w-3/4 w-full block mx-auto font-bold md:text-xl text-sm bg-[#e1e1e1] border-4 border-blue-500 rounded-xl md:px-6 py-2"
+                className="btn text-center mt-4 relative  md:top-[-50px] md:left-[-25px] left-5 md:w-3/4 w-full block mx-auto font-bold text-sm bg-[#e1e1e1] border-4 border-blue-500 rounded-xl py-2"
               >
                 See Tomorrows Post!
               </Link>

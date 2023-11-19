@@ -26,14 +26,14 @@ const LinkFacebook = () => {
             </p>
           </div>
 
-          <div className="relative md:w-[50%] w-[80%] mx-auto">
+          <div className="relative md:w-[35%] w-[50%] mx-auto">
             <img src={phone} className="my-5 mx-auto block" alt="" />
 
-            <div className="txts text-right absolute md:bottom-24 bottom-10 md:right-[100px] right-8">
-              <p className="md:text-4xl josefin-bold-italic text-black">
+            <div className="txts text-right absolute md:bottom-10 bottom-10 right-[40px]">
+              <p className="md:text-xl josefin-bold-italic text-black">
                 Now! Click Here
               </p>
-              <p className="md:text-3xl josefin-bold-italic text-black">
+              <p className="md:text-lg josefin-bold-italic text-black">
                 Link your post to <br /> Facebook with Ayshare
               </p>
 

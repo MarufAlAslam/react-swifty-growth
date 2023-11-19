@@ -13,7 +13,7 @@ const CreateAccount = () => {
             className="absolute bottom-[5px] left-[5px] z-10 w-[100px]"
             alt=""
           />
-          <form className="form bg-white p-4 border-4 border-blue-500 md:w-[40%] w-[60%] mt-auto ml-auto">
+          <form className="form bg-white p-4 border-4 border-blue-500 md:w-[60%] w-[60%] mt-auto ml-auto">
             <input
               placeholder="First Name..."
               type="text"
