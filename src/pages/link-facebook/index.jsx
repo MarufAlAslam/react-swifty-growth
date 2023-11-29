@@ -26,7 +26,7 @@ const LinkFacebook = () => {
             </p>
           </div>
 
-          <div className="relative md:w-[35%] w-full mx-auto">
+          <div className="relative lg:w-[35%] md:w-1/2 sm:w-2/3 mx-auto">
             <img src={phone} className="md:my-5 my-11 mx-auto block" alt="" />
 
             <div className="txts text-right absolute md:bottom-10 bottom-10 right-[40px]">

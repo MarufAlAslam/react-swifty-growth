@@ -28,7 +28,7 @@ your first LIVE post!
             </p>
           </div>
 
-          <div className="relative md:w-[35%] w-[80%] mx-auto">
+          <div className="relative lg:w-[35%] md:w-1/2 sm:w-2/3 w-[80%] mx-auto">
             <img src={phone} className="md:my-5 my-11 mx-auto block" alt="" />
 
             <div className="txts ttxts w-full text-left absolute md:bottom-4 bottom-8 md:left-[30px] left-8">

@@ -28,7 +28,7 @@ const ClickSubmit = () => {
             </p>
           </div>
 
-          <div className="relative md:w-[35%] w-[80%] mx-auto">
+          <div className="relative lg:w-[35%] md:w-1/2 sm:w-2/3 w-[80%] mx-auto">
             <img src={phone} className="md:my-5 my-11 mx-auto block" alt="" />
 
             <div className="txts scale-[70%] w-[80%] text-left absolute md:bottom-[-30px] bottom-10 md:left-[25px] left-8">

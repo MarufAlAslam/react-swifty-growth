@@ -2,6 +2,7 @@ import React from "react";
 import arrow from "../../assets/img/arrow.png";
 import logo from "../../assets/img/logo.png";
 import { Link } from "react-router-dom";
+import grow from "../../assets/img/sale-grow.png"
 
 const CreateAccount = () => {
   return (
@@ -13,7 +14,8 @@ const CreateAccount = () => {
             className="absolute bottom-[15px] left-[15px] z-10 w-[100px]"
             alt=""
           />
-          <form className="form bg-white p-4 border-4 border-blue-500 md:w-[60%] w-full mt-auto md:mb-0 mb-10 ml-auto">
+          <img src={grow} className="absolute md:top-[-100px] top-[-30px] md:right-16 right-5 lg:w-1/2 w-2/3" alt="" />
+          <form className="form bg-white p-4 border-4 border-blue-500 md:w-[60%] w-[80%] mt-auto md:mb-0 mb-10 ml-auto">
             <input
               placeholder="First Name..."
               type="text"
