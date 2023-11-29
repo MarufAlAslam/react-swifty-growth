@@ -32,7 +32,7 @@ const CreditCard = () => {
               Plus 30 More!
             </p>
 
-            <div className="credit-card bg-white p-4 border-4 border-blue-500 rounded-[20px] md:w-1/2 w-2/3 mx-auto my-6">
+            <div className="credit-card bg-white p-4 border-4 border-blue-500 rounded-[20px] md:w-1/2 sm:w-2/3 mx-auto my-6">
               <form action="">
                 <div className="grid grid-cols-3 gap-3 mb-4">
                   <div className="item text-left">
